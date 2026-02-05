@@ -1,53 +1,52 @@
-# DevLinks — Projeto Rocketseat 💻
+<h1 align="center"> DevLinks </h1>
 
-> Lista de links úteis para desenvolvedores — versão estática (layout inspirado no DevLinks da Rocketseat)
+<p align="center">
+Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+</p>
 
-Uma pequena página responsiva construída como exercício do DevLinks da Rocketseat. Mostra um card com informações de perfil, links, redes sociais e um switch para alternar entre os modos claro/escuro. Ideal para estudar HTML, CSS moderno (variáveis) e um pouco de JavaScript.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
----
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-## 🧩 Tecnologias
+<br>
 
-- HTML5
-- CSS3 (Custom Properties / Variáveis)
-- JavaScript (DOM)
-- Git & GitHub
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Git e Github
 - Figma
 
----
+## 💻 Projeto
 
-## 🚀 Como usar
+O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-1. Clone o projeto:
+- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
-   ```bash
-   git clone https://github.com/Michelangelo-Costa/Projeto_Rocketseat.git
-   ```
+- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
-2. Abra o arquivo `index.html` no seu navegador (não é necessário instalar dependências).
+## 🔖 Layout
 
-3. Experimente o switch de tema e clique nos links do projeto.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-> Dica: para desenvolvimento local com atualizações automáticas considere usar uma extensão como "Live Server" no VS Code.
+## :memo: Licença
 
----
-
-## 🎨 Layout
-
-O layout segue o design do desafio da DevLinks (inspirado pela Rocketseat).
+Esse projeto está sob a licença MIT.
 
 ---
 
-## 🤝 Contribuições
-
-Pull requests são bem-vindos! Para mudanças grandes, abra um issue antes para alinharmos o que você pretende alterar.
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-Feito com ♥ por Michelangelo Costa — inspirado pela Rocketseat.
+Feito com ♥ por Michelangelo Costa — inspirado pela Rocketseat. [Participe da nossa comunidade!](https://discord.gg/rocketseat)
