@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
@@ -22,7 +22,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(assets/sun.svg);
-  
 }
 
 body {
@@ -31,9 +30,8 @@ body {
 }
 
 body * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text-color);
-
 }
 
 #container {
@@ -62,7 +60,6 @@ body * {
   width: 64px;
   position: relative;
   margin: 4px auto;
-  
 }
 
 #switch button {
@@ -77,15 +74,19 @@ body * {
   transform: translateY(-50%);
   left: 0;
   z-index: 1;
-  
+
+  animation: slide-back 0.2s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
 }
 
-#switch span{
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
@@ -97,7 +98,7 @@ body * {
 }
 
 /* links */
-ul{
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -111,7 +112,7 @@ ul li a {
 
   padding: 16px 24px;
 
-  background:  var(--surface-color);
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
 
@@ -130,7 +131,6 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
-
 #social-links {
   display: flex;
   justify-content: center;
@@ -139,7 +139,6 @@ ul li a:hover {
   padding: 24px 0;
 
   font-size: 24px;
-
 }
 
 #social-links a {
@@ -152,9 +151,8 @@ ul li a:hover {
   border-radius: 50%;
 }
 
-#social-links a:hover{
+#social-links a:hover {
   background: var(--highlight-color);
-
 }
 
 footer {
@@ -174,3 +172,21 @@ footer {
   }
 }
 
+/* animations */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
